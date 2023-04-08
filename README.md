@@ -24,3 +24,10 @@ Les datas circulent de cette façon:
 - Le modèle retourne la/les données au controlleur
 - Le contolleur retourne les données au script JS
 - la page HTML affiche les datas issus du script JS
+
+### BDD infos
+
+- Nom de la base : electron_ifr
+- Table des produits : stockage
+- Commande de Tony pour créer la table :  
+CREATE TABLE \`electron_ifr\`.\`stockage\` ( \`id\` INT NOT NULL AUTO_INCREMENT , \`type_piece\` VARCHAR(255) NOT NULL , \`nom\` VARCHAR(255) NOT NULL , \`marque\` VARCHAR(255) NOT NULL , \`prix\` FLOAT NOT NULL , \`description\` TEXT NULL , \`stock\` INT NOT NULL , PRIMARY KEY (\`id\`)) ENGINE = InnoDB;
